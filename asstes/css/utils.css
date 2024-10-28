@@ -1,0 +1,52 @@
+/* Explanation
+Colors: Modify primary and secondary colors to match your branding.
+Font Sizes: Adjust base and large font sizes as needed.
+Spacing: Change spacing values for margins and paddings based on your design.
+Box Shadows: Customize shadows for elements requiring emphasis.
+Alignment and Flex: Use classes like .mx-auto for centering elements quickly.
+*/
+
+/* Feel free to customize further according to your project needs! */
+
+:root {
+    /* Colors */
+    --color-primary: #007bff; /* Main theme color */
+    --color-secondary: #6c757d; /* Secondary color */
+    --color-success: #28a745; /* Success color */
+    --color-danger: #dc3545; /* Danger color */
+    --color-warning: #ffc107; /* Warning color */
+    --color-info: #17a2b8; /* Info color */
+    --color-light: #f8f9fa; /* Light background color */
+    --color-dark: #343a40; /* Dark text color */
+
+    /* Font sizes */
+    --font-size-base: 1rem; /* Base font size */
+    --font-size-large: 1.25rem; /* Large font size */
+  
+    /* Spacing */
+    --spacing-1: 0.25rem; /* Small spacing */
+    --spacing-2: 0.5rem; /* Medium spacing */
+    --spacing-3: 1rem; /* Large spacing */
+
+    /* Border radius */
+    --border-radius: 0.25rem; /* Default border radius */
+}
+  
+/* Color Utilities */
+.text-primary { color: var(--color-primary); }
+.bg-primary { background-color: var(--color-primary); }
+
+/* Font Size Utilities */
+.font-base { font-size: var(--font-size-base); }
+.font-large { font-size: var(--font-size-large); }
+
+/* Spacing Utilities */
+.mt-1 { margin-top: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+
+/* Box Shadow Utilities */
+.shadow { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+
+/* Additional Margin and Padding Utilities */
+.mx-auto { margin-left: auto; margin-right: auto; }
