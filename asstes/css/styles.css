@@ -8,3 +8,59 @@
   html {
     font-size: 100%; /* 16px */
   }
+
+#Addmission{
+  background: purple;
+  color: white;
+  font-weight: 500;
+  height: 30px;
+}
+.callus{
+  text-align: center;
+}
+.link-icon{
+  display: flex;
+  list-style: none;
+  gap: 7px;
+  justify-content: end;
+  padding-right: 20px;
+}
+.link-icon a{
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* .school-name{
+  text-align: left;
+} */
+
+.school-name{
+  padding-top: 25px;
+  text-align: center;
+  color: purple;
+}
+.address{
+  text-align: center;
+}
+.location-logo{
+  color: purple;
+  font-size: x-large;
+}
+.address{
+  color: purple;
+}
+.menubar-icon{
+  background: purple;
+}
+.menu-bar-bg{
+background: purple;
+}
+.nav-link{
+color: white;
+}
+.carousel-item{
+  object-fit: contain;
+  height: 900px;
+}
