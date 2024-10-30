@@ -39,19 +39,24 @@
   <!-- cdn link of remixicon -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 
+<!-- AOS style link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
+
+  <!-- top nav-bar for contact -->
   <header id="Addmission">
     <!-- <marquee><h4>Addmission Open in Our Star Light School From Class Play to 10th ...</h4></marquee> -->
-    <div class="row callus">
-      <div class="col-lg-3 phone-num">
-        <p>Call us- 9517058867 <i class="ri-phone-fill"></i></p>
+    <div class="container d-flex justify-content-between callus">
+      <div class="phone-num">
+        <p><a href="tel: +91 9517058867 ">Call us- 9517058867</a><i class="ri-phone-fill"></i></p>
       </div>
-      <div class="col-lg-3 cbseNo">
+      <div class="cbseNo">
         <p>CBSE Affiliation No. 103508</p>
       </div>
-      <div class="col-lg-6 icons">
+      <div class="icons">
         <ul class="link-icon">
           <li><a href="https:/facebook.com" target="_blank"><i class="ri-facebook-circle-fill"></i></a></li>
           <li><a href="https:/youtube.com" target="_blank"><i class="ri-youtube-fill"></i></a></li>
@@ -60,23 +65,26 @@
       </div>
     </div>
   </header>
-  <div class="middle-header">
+
+  <!-- middle-nav-bar  -->
     <div class="container">
       <div class="row">
-        <div class=" col-lg-6 d-flex"><img src="asstes/images/logo-removebg-preview (1).png" alt="" height="150px">
+        <div class=" col-lg-6 d-flex justify-content-center align-items-center">
+          <img src="asstes/images/logo-removebg-preview (1).png" data-aos="fade-right" alt="" height="150px">
           <div class=" school-name">
-            <h2>Brightbeginning Institute</h2>
-            <p>CBSE AFFILIATED</p>
+            <h3 data-aos="fade-left">Brightbeginning Institute</h3>
+            <p data-aos="fade-left">CBSE AFFILIATED</p>
           </div>
         </div>
-        <div class="col-lg-6 address">
+        <div class="col-lg-6 address d-flex justify-content-center align-items-center flex-column">
           <span class="location-logo"><i class="ri-map-pin-fill"></i></span>
           <h5>Address</h5>
           <h6>Mumbai-Road, Indore, M.P-471001</h6>
         </div>
       </div>
     </div>
-  </div>
+
+ <!-- menu-bar -->
   <div class="menu-bar">
     <nav class="navbar navbar-expand-lg menu-bar-bg ">
       <div class="container-fluid">
@@ -114,24 +122,26 @@
       </div>
     </nav>
   </div>
+
+<!-- home page slider -->
   <div class="home-page-slider">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls"  class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="asstes/images/que.jpg" class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img src="asstes/images/classs.jpg" class="d-block w-100" alt="">
+          <img src="asstes/images/classs.jpg"  class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img src="asstes/images/ctrfit.jpg" class="d-block w-100" alt="">
+          <img src="asstes/images/ctrfit.jpg"  class="d-block w-100" alt="">
         </div>
 
         <div class="carousel-item">
-          <img src="asstes/images/cmptr class.jpg" class="d-block w-100" alt="">
+          <img src="asstes/images/cmptr class.jpg"  class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
-          <img src="asstes/images/dance class.jpg" class="d-block w-100" alt="">
+          <img src="asstes/images/dance class.jpg"  class="d-block w-100" alt="">
         </div>
         <div class="carousel-item">
           <img src="asstes/images/lecture.jpg" class="d-block w-100" alt="">
@@ -147,40 +157,65 @@
       </button>
     </div>
   </div>
-  <main class="container my-5">
-    <!-- <h2 class="my-4">Main Content</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title 2</h5>
-                        <p class="card-text">Some quick example text to build on the card title.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Title 3</h5>
-                        <p class="card-text">Some quick example text to build on the card title.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+
+<!-- welcome-part -->
+ <div class="container my-5">
+
+  <div class="row">
+    <div class="col"><img src="asstes/images/faculty.jpg"  data-aos="fade-up" class="wlc-img" class="image-fluid"  alt="" height="400px"></div>
+    <div class="col">
+      <h5 id="wlc">WELCOME TO <br> BRIGHTBEGINNING INSTITUTE</h5>
+      <p id="my-para" data-aos="fade-up">APS Management Team is a unique combination of experienced Educationists, Qualified & trained Teachers and Corporate Managers, It strives to achieve the objectives of the organization via continuous research, introduction of latest training methodologies and follow-ups to ensure adherence to set guidelines.</p>
+      <button data-aos="fade-up">Read More</button>
+    </div>
+  </div>
+ </div>
+
+ <!-- activities section  -->
+ <div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center">Our Activities</h1>
+    </div>
+  </div>
+ </div>
+  <main class="container my-5 d-flex justify-content-between">
+
+    <div class="card" data-aos="zoom-in" style="width: 18rem;">
+      <img src="asstes/images/dncimg.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dancing Class</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="zoom-in" style="width: 18rem;">
+      <img src="asstes/images/games2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="zoom-in" style="width: 18rem;">
+      <img src="asstes/images/spts.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="zoom-in" style="width: 18rem;">
+      <img src="asstes/images/running.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
   </main>
 
   <footer class="bg-light text-center py-4">
@@ -189,6 +224,11 @@
     </div>
   </footer>
 
+<!-- AOS link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- Scripts -->
   <script src="asstes/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> <!--Bootstrap--->
   <script src="assets/js/scripts.js"></script>

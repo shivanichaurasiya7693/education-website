@@ -30,13 +30,16 @@
   color: white;
   text-decoration: none;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 
 /* .school-name{
   text-align: left;
 } */
 
-.school-name{
+.school-name, h5{
   padding-top: 25px;
   text-align: center;
   color: purple;
@@ -60,7 +63,32 @@ background: purple;
 .nav-link{
 color: white;
 }
+
+
 .carousel-item{
   object-fit: contain;
-  height: 900px;
+  height: 600px;
+}
+#my-para, h1{
+  color: rgb(100, 2, 100);
+  line-height: 25px;
+  font-weight: 500px;
+}
+#wlc{
+  line-height: 35px;
+  font-weight: 700px;
+}
+button{
+  border: none;
+  background: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 18px;
+}
+.wlc-img{
+  box-shadow: rgba(11, 1, 14, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;;
+}
+
+.bg-img{
+  background-image: url();
 }
